@@ -13,7 +13,7 @@
 // console.log(count2());
 // console.log(count2());
 // console.log(count1());
-
+//
 // function counter(x) {
 //   var count = x;
 //   function nowCount() {
@@ -41,10 +41,10 @@ var battle = function fire() {
   ];
   function firstFire(row, col) {
     if (board[row][col] === 'o') {
-        board[row][col] = 'x'
-        return 'Hit!'
+        board[row][col] = 'x';
+        return 'Hit!';
       } else {
-        return 'Miss'
+        return 'Miss';
       }
     }
   return firstFire;
